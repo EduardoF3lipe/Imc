@@ -165,6 +165,10 @@ input[type=reset] {
 
 @media screen and (max-width: 500px) {
 
+    #infoDiv{
+        font-size: 13px;
+    }
+
     .wrapper {
         padding: 50px 20px;
         width: 90%;
@@ -175,5 +179,12 @@ input[type=reset] {
     }
     .btns {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #infoDiv{
+        font-size: 12px;
     }
 }

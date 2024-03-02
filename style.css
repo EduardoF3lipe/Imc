@@ -182,7 +182,7 @@ input[type=reset] {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 390px) {
 
     #infoDiv{
         font-size: 12px;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+
+
+</head>
+<body>
+    
+
+    <!-- <h2 id="areaH2">
+        Bem-vindo faça seu login para acessar.
+    </h2>    
+
+    <button onclick="entrar()">Acessar</button> -->
+
+    <!-- =======================================================================  -->
+        <!-- swithc -->
+        <!-- <h1>Escolha um item</h1>
+        <ul>
+            <li>1 - Suco</li>
+            <li>2 - Refrigerante</li>
+            <li>3 - Cerveja</li>
+            <li>4 - Chamado o garçom</li>
+        </ul>
+        <button onclick="pedir()">Pedir</button> -->
+
+        <!-- <p id="pedir-result"></p> -->
+
+    <!-- =======================================================================  -->
+
+    <!-- <h3 id="validation" style="border-radius: 50%; width: 60px; height: 60px; background-color: transparent; "></h3> -->
+
+
+
+   <div class="wrapper">
+        <h1>Calculadora IMC</h1>
+
+        <form id="form">
+            <div class="inputs-text">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso" placeholder="Exemplo 60,5" autocomplete="off">
+            </div>
+
+            <div class="inputs-text">
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura" placeholder="Exemplo 1.15" autocomplete="off">
+            </div>
+          
+            <div class="btns">
+                <input type="submit" value="Calcular IMC">
+                <input type="reset" value="Nova consulta" class="reset" onclick="limpar()">
+            </div>
+        </form>
+
+        <div id="infoDiv" class="hidden">
+            <p id="description"></p>
+        </div>
+   </div>
+
+
+   <script type="text/javascript" src="imc.js"></script>
+
+</body>
+</html>
